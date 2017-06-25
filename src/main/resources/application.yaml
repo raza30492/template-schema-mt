@@ -1,0 +1,14 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    username: mdzahidraza
+    password: zahid
+  jpa:
+    show-sql: true
+    format-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: none
